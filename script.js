@@ -1,6 +1,6 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".main-nav");
-const navLinks = [...document.querySelectorAll(".nav-link")];
+const navLinks = [...document.querySelectorAll(".nav-link")]; 
 
 if (menuToggle && nav) {
   menuToggle.addEventListener("click", () => {
